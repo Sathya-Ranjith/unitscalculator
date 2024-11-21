@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>unitscalculator</title>
+    <link rel="stylesheet" href="unitsstyle.css" />
+  </head>
+  <body>
+    
+      <div id="sliderdiv">
+        <center><div class="slider">
+          <label class="caption top"> Units in Meter</label>
+          <input
+            type="range"
+            min="0"
+            max="1000"
+            id="range"
+            name="range"
+            value="0"
+          />
+          <lable class="value top"
+            ><span id="meter" name="meter">0 </span>meters</lable
+          >
+        </div>
+      </center>
+        <br /><br /><br />
+        <div class="slider sub">
+          <label class="caption"> Units in Milli Meter :</label>
+          <lable class="value"
+            ><span id="millimeter" name="millimeter">0 </span>mm</lable
+          >
+        </div>
+        <div class="slider sub">
+          <label class="caption"> Units in Centi Meter :</label>
+          <lable class="value"
+            ><span id="centimeter" name="centimeter">0 </span>cm</lable
+          >
+        </div>
+        <div class="slider sub">
+          <label class="caption"> Units in Kilo Meter :</label>
+          <lable class="value"
+            ><span id="kilometer" name="kilometer">0 </span>km</lable
+          >
+        </div>
+      </div>
+    
+    <script type="text/javascript" src="units.js"></script>
+  </body>
+</html>
